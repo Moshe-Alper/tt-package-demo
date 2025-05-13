@@ -1,4 +1,4 @@
-import { add } from "./util"; 
+import { add } from "./util.js"; 
 import { test, expect } from "vitest";
 
 test("add", () => {
