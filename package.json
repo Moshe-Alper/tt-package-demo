@@ -1,0 +1,32 @@
+{
+  "name": "tt-package-demo",
+  "version": "1.0.0",
+  "description": "A demo package for Total TypeScript",
+  "keywords": [
+    "demo",
+    "typescript"
+  ],
+  "homepage": "https://github.com/Moshe-Alper/tt-package-demo",
+  "bugs": {
+    "url": "https://github.com/Moshe-Alper/tt-package-demo/issues"
+  },
+  "author": "Moshe Alper <moshikalper@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moshe-Alper/tt-package-demo.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  }
+}
